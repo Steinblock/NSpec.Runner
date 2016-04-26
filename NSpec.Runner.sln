@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSpec.Runner", "NSpec.Runner\NSpec.Runner.csproj", "{4FD94255-9A5E-4B63-8F82-337F4FF0FC24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{69395747-4A18-4A09-92F9-EED4032F7677}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSpec.Runner.Tests", "NSpec.Runner.Tests\NSpec.Runner.Tests.csproj", "{69395747-4A18-4A09-92F9-EED4032F7677}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 651d86ea-12f9-4d34-920b-903e59654049
 	EndGlobalSection
 EndGlobal
